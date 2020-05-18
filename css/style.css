@@ -48,10 +48,7 @@ a {
 main {
   background-color: #ffffff;
 }
-[class*="col-"] {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 .header {
   text-align: center;
 }
