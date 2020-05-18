@@ -215,51 +215,16 @@ main {
 .ico_partner_container {
   position: relative;
 }
-.ico_wath_tv::before {
+
+.ico_partner_container::before {
   content: "";
   position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
   border-style: solid;
   border-width: 4px;
   border-color: rgb(255, 255, 255);
   border-radius: 50%;
-  background-color: rgb(255, 78, 80);
-  background-image: url("../img/ico/ico_wath_tv.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 37px;
-  height: 37px;
-  bottom: 0;
-  right: 50px;
-  z-index: 1;
-}
-.ico_learn::before {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  background-color: rgb(255, 165, 7);
-  background-image: url("../img/ico/ico_learn.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 37px;
-  height: 36px;
-  bottom: 0;
-  right: 50px;
-  z-index: 1;
-}
-.ico_coofe::before {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  background-color: rgb(28, 215, 173);
-  background-image: url("../img/ico/ico_cofee.png");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 37px;
   height: 37px;
   bottom: 0;
@@ -267,20 +232,20 @@ main {
   z-index: 1;
 }
 
+.ico_wath_tv::before {
+  background-color: rgb(255, 78, 80);
+  background-image: url("../img/ico/ico_wath_tv.png");
+}
+.ico_learn::before {
+  background-color: rgb(255, 165, 7);
+  background-image: url("../img/ico/ico_learn.png");
+}
+.ico_coofe::before {
+  background-color: rgb(28, 215, 173);
+  background-image: url("../img/ico/ico_cofee.png");
+}
+
 .ico_play::before {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
   background-color: rgb(78, 115, 219);
   background-image: url("../img/ico/ico_play.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 37px;
-  height: 37px;
-  bottom: 0;
-  right: 50px;
-  z-index: 1;
 }
