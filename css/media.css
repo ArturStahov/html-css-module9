@@ -27,9 +27,21 @@
   .header_subtext_mr {
     margin-bottom: 18px;
   }
+  .header__title_subtext_first__line_mb {
+    display: block;
+  }
+  .header__title_subtext_second__line_mb {
+    display: block;
+  }
   .section_partners_padding {
     padding-top: 65px;
     padding-bottom: 57px;
+  }
+  .section_partner_title_first__line_mb {
+    display: block;
+  }
+  .section_partner_title_second__line_mb {
+    display: block;
   }
   .section_partners_title_mr {
     margin-bottom: 15px;
@@ -120,5 +132,9 @@
   }
   .header_subtext_mr {
     margin-bottom: 36px;
+  }
+  .partner_descr {
+    padding-right: 25px;
+    padding-left: 25px;
   }
 }

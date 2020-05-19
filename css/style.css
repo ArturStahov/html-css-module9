@@ -164,7 +164,6 @@ main {
   background-color: #ffffff;
 }
 .partner_card {
-  width: 235px;
   text-align: center;
 }
 .partner_name {
@@ -212,6 +211,8 @@ main {
 
 .ico_partner_container {
   position: relative;
+  width: 121px;
+  margin: 0 auto;
 }
 
 .ico_partner_container::before {
@@ -226,7 +227,7 @@ main {
   width: 37px;
   height: 37px;
   bottom: 0;
-  right: 50px;
+  right: 0;
   z-index: 1;
 }
 
