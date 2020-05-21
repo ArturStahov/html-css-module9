@@ -68,10 +68,11 @@
     padding-top: 42px;
     padding-bottom: 235px;
   }
-  .nav_md_reverse {
-    flex-direction: row-reverse;
-    max-width: 665px;
-    margin: 0 auto;
+  .header__nav {
+    justify-content: flex-end;
+  }
+  .logo_pos {
+    text-align: left;
   }
   .header_nav_mr {
     margin-bottom: 154px;
@@ -132,9 +133,5 @@
   }
   .header_subtext_mr {
     margin-bottom: 36px;
-  }
-  .partner_descr {
-    padding-right: 25px;
-    padding-left: 25px;
   }
 }

@@ -107,6 +107,10 @@ main {
 .logo:focus {
   color: rgb(255, 78, 80);
 }
+.header__nav {
+  display: flex;
+  justify-content: center;
+}
 
 .header_title {
   font-size: 1.875rem;
@@ -166,21 +170,21 @@ main {
 .partner_card {
   text-align: center;
 }
-.partner_name {
+.partner_card__partner_name {
   font-size: 0.875rem;
   color: rgb(51, 51, 51);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 15px;
 }
-.partner_descr {
+.partner_card__partner_descr {
   font-size: 0.875rem;
   font-family: var(--second_font);
   color: rgb(102, 102, 102);
   line-height: 1.2;
   font-weight: 300;
 }
-.partner_ico {
+.partner_card__partner_ico {
   margin: 0 auto 15px;
   width: 121px;
   height: 121px;
@@ -209,13 +213,13 @@ main {
   transition-duration: 200ms;
 }
 
-.ico_partner_container {
+.partner_card__ico_partner_container {
   position: relative;
   width: 121px;
   margin: 0 auto;
 }
 
-.ico_partner_container::before {
+.partner_card__ico_partner_container::before {
   content: "";
   position: absolute;
   background-repeat: no-repeat;
@@ -231,20 +235,20 @@ main {
   z-index: 1;
 }
 
-.ico_wath_tv::before {
+.partner_card--ico_wath_tv::before {
   background-color: rgb(255, 78, 80);
   background-image: url("../img/ico/ico_wath_tv.png");
 }
-.ico_learn::before {
+.partner_card--ico_learn::before {
   background-color: rgb(255, 165, 7);
   background-image: url("../img/ico/ico_learn.png");
 }
-.ico_coofe::before {
+.partner_card--ico_coofe::before {
   background-color: rgb(28, 215, 173);
   background-image: url("../img/ico/ico_cofee.png");
 }
 
-.ico_play::before {
+.partner_card--ico_play::before {
   background-color: rgb(78, 115, 219);
   background-image: url("../img/ico/ico_play.png");
 }
