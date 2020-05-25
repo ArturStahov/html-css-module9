@@ -125,8 +125,9 @@
       ),
       url("../img/image/desktop_header_bg.jpg");
   }
-  .nav_md_reverse {
+  .nav_md_pos {
     max-width: 942px;
+    margin: 0 auto;
   }
   .header_title_mr {
     margin-bottom: 36px;
